@@ -1,0 +1,7 @@
+name = "JuliaAO.github.io"
+uuid = "2deedbf5-c6e9-4478-af2e-2e7c8a17c982"
+authors = ["Ryan Dungee <rdungee@hawaii.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
