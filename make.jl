@@ -2,11 +2,11 @@ using Documenter
 
 makedocs(;
     authors = "Julia AO",
-    repo = "https://github.com/juliaao/juliaao.github.io/blob/{commit}{path}#L{line}",
+    repo = "https://github.com/JuliaAO/JuliaAO.github.io/blob/{commit}{path}#L{line}",
     sitename = "JuliaAO",
     format = Documenter.HTML(;
         prettyurls = get(ENV, "CI", "false") == "true",
-        canonical = "https://juliaao.github.io/",
+        canonical = "https://JuliaAO.github.io/",
         assets = String[],
     ),
     pages = [
